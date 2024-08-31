@@ -6,14 +6,13 @@ import Buttons from './components/Buttons';
 
 function App() {
 
-  // 'theme color indexes'
+  // theme color indexes
   const [tci, setTCI] = useState([0]);
-  // 'quote indexes'
+  // quote indexes
   const [qi, setQI] = useState([3]);
 
   const randomValue = function (which, num, arr) {
     const val = Math.floor(Math.random() * num);
-    console.log(val, qi, tci);
     if (arr.includes(val)) {
       randomValue(which, num, arr);
       return;

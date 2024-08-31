@@ -1,8 +1,7 @@
-# random_quote_machine-freecodecamp
-Front End Development Libraries<br>
-Random Quote Machine<br>
-An app that displays random quotes
+# random-quote-machine
+freeCodeCamp Front End Development Libraries Certification Project
+<br>Random Quote Machine
 
-[freeCodeCamp](https://www.freecodecamp.org/learn "Earn free verified certifications with freeCodeCamp's core curriculum")
+Browse: <https://cemcelikgh.github.io/random-quote-machine/>
 
-![Telephone Number Validator](./random-quote-machine.jpg)
+[![Random Quote Machine Preview](./public/assets/random-quote-machine-preview.jpg "Browse Random Quote Machine")](https://cemcelikgh.github.io/random-quote-machine/)
