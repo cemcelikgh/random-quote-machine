@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div
-      className='frame'
+      className='viewport'
       style={{backgroundColor:colors[tci[tci.length - 1]]}}
     >
       <div id='quote-box'>

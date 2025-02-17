@@ -1,41 +1,42 @@
-.frame {
-  display: flex;
-  width: 100%;
+.viewport {
   height: 100vh;
+  overflow: hidden;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 #quote-box {
-  width: 450px;
+  min-width: 300px;
+  max-width: 450px;
   padding: 40px 50px;
   background-color: var(--white);
   border-radius: 3px;
 }
 
 #text {
-  font-size: 1.7rem;
+  font-size: 27.2px;
   display: inline;
 }
 
 .fa-quote-left, .fa-quote-right {
   display: inline-block;
   vertical-align: middle;
-  margin-top: -0.9rem;
-  font-size: 1rem;
+  margin-top: -14.4px;
+  font-size: 16px;
   color: black;
 }
 
 #author {
   text-align: right;
-  padding: 1.25rem 0;
+  padding: 20px 0;
 }
 
 .buttons {
   display: flex;
   justify-content: space-between;
-  padding-top: 0.75rem;
-  height: 3rem;
+  padding-top: 12px;
+  height: 48px;
 }
 
 a {
@@ -44,7 +45,7 @@ a {
 }
 
 .fa-brands {
-  font-size: 2.5rem;
+  font-size: 40px;
 }
 
 button {
@@ -57,4 +58,31 @@ button {
 
 .fa-brands:hover, button:hover {
   opacity: 0.5;
+}
+
+@media ( width < 450px ) {
+  #quote-box {
+    padding: 10px 20px;
+  }
+  #text {
+    font-size: 20px;
+  }
+  .fa-quote-left, .fa-quote-right {
+    margin-top: -8px;
+    font-size: 11.8px;
+  }
+  #author {
+    font-size: 15px;
+    padding: 10px 0;
+  }
+  .buttons {
+    padding-top: 4px;
+    height: 32px;
+  }
+  a {
+    margin-right: 3px;
+  }
+  .fa-brands {
+    font-size: 30px;
+  }
 }

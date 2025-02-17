@@ -1,6 +1,9 @@
 import { useEffect } from "react";
 import quotes from "../data/quotes";
 import colors from "../data/colors";
+// import './fontawesome/css/brands.min.css'
+// import './fontawesome/css/fontawesome.min.css'
+// import './fontawesome/css/solid.min.css'
 
 export default function Buttons({randomValue, qi, tci}) {
 
