@@ -2,6 +2,6 @@
 freeCodeCamp Front End Development Libraries Certification Project
 <br>Random Quote Machine
 
-Browse: <https://cemcelikgh.github.io/random-quote-machine/>
+Display: <https://rand0m-quote-machine.netlify.app/>
 
-[![Random Quote Machine Preview](./public/assets/random-quote-machine-preview.jpg "Browse Random Quote Machine")](https://cemcelikgh.github.io/random-quote-machine/)
+[![Random Quote Machine Preview](./public/assets/random-quote-machine-preview.jpg "Display Random Quote Machine")](https://rand0m-quote-machine.netlify.app/)
